@@ -5,7 +5,7 @@ Comprobantes Electronicos Costa Rica Drupal Distribution
 ### Dependencies
 
 * Docker
-* [Ahoy] (https://github.com/ahoy-cli/ahoy/releases)
+* [Ahoy](https://github.com/ahoy-cli/ahoy/releases)
 
 ### Getting Started
 
