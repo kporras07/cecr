@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: tbfisher/drupal-nginx:php-7.0.x
+      - image: tbfisher/drupal-nginx:php-7.1.x
       - image: mariadb:5.5
         environment:
           MYSQL_DATABASE: drupal
@@ -67,7 +67,7 @@ jobs:
           name: Behat Testing
           command: |
             /etc/init.d/nginx start > nginx.log &
-            /etc/init.d/php7.0-fpm start > php7.0-fpm.log &
+            /etc/init.d/php7.1-fpm start > php7.1-fpm.log &
             ./vendor/bin/behat -p circle
 
   deploy:
