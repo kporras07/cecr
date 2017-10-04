@@ -1,10 +1,4 @@
 {
-  "repositories": [
-    {
-      "type": "path",
-      "url": "../cemhcr"
-    }
-  ],
   "require": {
     "drupal/core": "8.3.7",
     "drupal/config_split": "1.0-beta5",
