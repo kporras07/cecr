@@ -72,7 +72,7 @@ jobs:
 
   deploy:
     docker:
-      - image: tbfisher/drupal-nginx:php-7.0.x
+      - image: tbfisher/drupal-nginx:php-7.1.x
     working_directory: /var/www/cecr
     steps:
       - checkout
@@ -116,7 +116,7 @@ jobs:
             terminus drush cecr.dev -- cr
   deploy-test:
     docker:
-      - image: tbfisher/drupal-nginx:php-7.0.x
+      - image: tbfisher/drupal-nginx:php-7.1.x
     working_directory: /var/www/cecr
     steps:
       - run:
@@ -134,7 +134,7 @@ jobs:
             terminus drush cecr.test -- cr
   deploy-live:
     docker:
-      - image: tbfisher/drupal-nginx:php-7.0.x
+      - image: tbfisher/drupal-nginx:php-7.1.x
     working_directory: /var/www/cecr
     steps:
       - run:
