@@ -1,0 +1,17 @@
+name: Comprobantes Electronicos Costa Rica
+type: profile
+description: 'Installation profile for Comprobantes Electronicos Costa Rica.'
+core: '8.x'
+dependencies:
+  - node
+  - block
+  - breakpoint
+  - config
+  - page_cache
+  - dynamic_page_cache
+  - dblog
+  - search
+  - toolbar
+themes:
+  - bartik
+  - seven

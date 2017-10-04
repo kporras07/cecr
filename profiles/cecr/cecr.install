@@ -1,0 +1,11 @@
+<?php
+/**
+ * @file
+ * Install, update and uninstall functions for Comprobantes Electronicos Costa Rica profile.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function cecr_install() {
+}
